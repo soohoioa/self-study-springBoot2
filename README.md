@@ -5,5 +5,5 @@
 IntelliJ_All : jpashop<br/>
 Project : Gradle-Groovy<br/>
 Language : Java 17 <br/>
-Spring Boot : 3.1.5<br/>
-Dependencies : Spring Web, Thymeleaf, Spring Data JPA, H2 Database, Lombok<br/>
+Spring Boot : 3.1.7<br/>
+Dependencies : Spring Web, Thymeleaf, Spring Data JPA, H2 Database, Lombok, Validation <br/>
