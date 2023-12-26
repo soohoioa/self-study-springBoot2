@@ -22,7 +22,7 @@ public class Member {
 
     @OneToMany(mappedBy = "member") // member 의 입장에서 list 는 하나의 회원이 여러개의 상품을 주문하기 때문에 1 : N 관계가 된다.
     // 연관관계 거울이다 라고 하면 누구에 의해 매핑이 되었는지를 적어준다. 여기서 member 는 정확하게 order Table 에 있는 member 필드에 의해서 나는 매핑된거다 라고 할 수 있다.
-    @JoinColumn(name = "member_id") // 매핑을 무엇으로 하려고 하는지를 적어준다. 여기서는 member_id 로 작성했고, ForeignKey 가 된다.
+    //@JoinColumn(name = "member_id") // 매핑을 무엇으로 하려고 하는지를 적어준다. 여기서는 member_id 로 작성했고, ForeignKey 가 된다.
     private List<Order> orders = new ArrayList<>(); // 회원 주문 목록
 
 }
