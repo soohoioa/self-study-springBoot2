@@ -7,3 +7,5 @@ Project : Gradle-Groovy<br/>
 Language : Java 17 <br/>
 Spring Boot : 3.1.7<br/>
 Dependencies : Spring Web, Thymeleaf, Spring Data JPA, H2 Database, Lombok, Validation <br/>
+server.port=9090<br/>
+
